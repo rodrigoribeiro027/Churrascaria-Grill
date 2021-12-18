@@ -58,9 +58,9 @@ pip install -r requirements.txt
 ![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria---Grill/blob/main/docs/email%20e%20senha.png)
 
 
-<strong> 5. Executar a aplicação </strong>
+<strong> 6. Executar a aplicação </strong>
 ```console
-python app.py
+python app.py 
 ```
 
 

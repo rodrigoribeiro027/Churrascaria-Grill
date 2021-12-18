@@ -5,14 +5,67 @@ Site para reforçar estudos ,Criado totalmente do zero com informações fictíc
 ### Churrascaria-Grill Ficticia 
 
 ### Previa - Preview
-![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria-Tropical-Grill/blob/main/docs/initial%20page.png)
+![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria---Grill/blob/main/docs/initial%20page.png)
 
-![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria-Tropical-Grill/blob/main/docs/previa222.png)
+![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria---Grill/blob/main/docs/previa222.png)
 ### Pagina Sobre
-![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria-Tropical-Grill/blob/main/docs/page%20sobre.png)
+![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria---Grill/blob/main/docs/page%20sobre.png)
 ### Pagina Contato
-![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria-Tropical-Grill/blob/main/docs/page%20contato.png)
-![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria-Tropical-Grill/blob/main/docs/envio%20de%20email.png)
+![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria---Grill/blob/main/docs/page%20contato.png)
+![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria---Grill/blob/main/docs/envio%20de%20email.png)
+
+
+<h1> Tutorial de Utilização e Instalação da Aplicação </h1>
+
+Implantar esse sistema localmente:
+
+<strong> 1. Clonar o repositório </strong>
+
+<strong> 2. Criar um ambiente virtual </strong> 
+```console
+virtualenv env 
+```
+ou (cmd windows)
+
+```console
+py-3 -m venv venv
+```
+
+<strong> 3. Ativar o ambiente virtual:</strong>
+
+```console
+venv\scripts\activate
+```
+<strong> 5. Para atualizar a versão do python </strong>
+```console
+python -m pip install --upgrade pip
+```
+<strong> 4. Instalar as dependências:</strong>
+```console
+pip install -r requirements.txt
+```
+<strong> 5. Para funcionar o sistema de envio de mensagens para o email siga os passos abaixo </strong>
+<br>
+<strong> 5.1 Crie um email e va nas configurações </strong>
+<br>
+![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria---Grill/blob/main/docs/conta1.png)
+<br>
+<strong> 5.2 ative a opção acesso a app menos seguro </strong>
+<br>
+![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria---Grill/blob/main/docs/ativar.png)
+<br>
+<strong> 5.3 adicione o email e senha aos dois campos </strong>
+![Homepage image](https://github.com/rodrigoribeiro027/Churrascaria---Grill/blob/main/docs/email%20e%20senha.png)
+
+
+<strong> 5. Executar a aplicação </strong>
+```console
+python app.py
+```
+
+
+
+<hr>
 
 
    ## Contato - Contacts :iphone:

@@ -1,0 +1,242 @@
+  *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+  body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);    
+    border-radius: 20px;       
+    border: 3px solid rgb(139, 139, 139);  
+  }
+  a{
+    text-decoration: none;
+
+  }
+  #body1{
+    background: url(../static/img/carne5.jpg);
+  }
+  #body2{
+  background: rgb(197, 197, 197);
+  }
+  header{
+    background: linear-gradient(to left, rgb(0, 0, 0),#fff);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+.navbar ul{
+  display: flex;
+  
+}
+header img{
+  width: 90%;
+}
+.navbar li a{
+  color: rgb(255, 255, 255);
+  
+}
+.navbar li{
+  margin: 0 16px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+.navbar a:hover{
+  transition: 0.5 ease;
+  color: red;
+}
+.conteudo1{
+  
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.conteudo1 .box1{
+  margin: 0px 35px;
+}
+.box1 img{
+  width: 350px;
+  border: 4px solid white;
+  height: 250px;
+  
+}
+h2{
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 1px 1px black;
+  text-align: center;
+}
+.bemvindo h1{
+  font-size: 3em;
+}
+
+.bemvindo h1,.texto{ 
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 50px;
+  color: #fff;
+  text-shadow: 1px 2px 1px black;
+}
+.titulo1{
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 3px 1px black;
+}
+.imagens{
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.imagens image{
+  margin: 0px 35px;
+}
+.titulo{
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 1px 3px 1px black;
+}
+.titulo2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 1px 3px 1px black;
+}
+.frame{
+  
+  margin-top: 5%;
+  border-radius: 0.5%;
+  flex-wrap: wrap;
+  
+  
+  display: inline;
+    float: left;
+    height: 450px;
+    width: 100%;
+}
+.texto1{
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 30px;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 2px 1px rgb(255, 255, 255);
+}
+.image{
+  display: inline-block;
+  flex-wrap: wrap;
+  background: #fff;
+  border: 5px solid rgb(236, 236, 236);
+  width: 400px;
+  margin: 25px 35px;
+}
+.image img{
+  width: 100%;
+  height: 200px;
+
+}
+.sobre{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 7% 0;
+  margin-top: 45px;
+  background: #fff;
+  border: 5px solid rgb(236, 236, 236);
+  justify-content: center;
+}
+.sobre .titulo2{
+  color: black;
+  text-shadow: 1px 2px 1px rgb(255, 255, 255);
+}
+.image:hover{
+  transition: 0.5;
+  border: 5px solid rgb(136, 129, 129);
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+.contato1{
+  display: inline;
+  margin: 0 30px;
+}
+form {
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 0 auto;
+  padding: 1em;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 1em;
+  justify-content: center;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+
+}
+
+input, textarea {
+  font: 1em 'Mochiy Pop P One';
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+ 
+  border-color: #000;
+}
+
+textarea { 
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  
+  padding-left: 120px; 
+}
+
+button {
+
+  margin-left: .4em;
+}
+
+
+html,body{
+  overflow-x: hidden;
+}
+footer{
+  margin-top: 150px;
+}
+

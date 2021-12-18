@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./static/Style.css">
+    <link rel="shortcut icon" href="../static/img/grill.png" type="image/x-icon">
+    <title>Churrascaria Tropical Grill</title>
+</head>
+<body id="body2">
+    
+    <header>
+        <div>
+            <a href="/"> <img src="./static/img/grill.png" alt=""> </a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/sobre">Sobre</a></li>
+                <li><a href="/contato">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <div class="bemvindo">
+        <h1 class="titulo">Contatos Disponiveis</h1>
+        <p class="texto">
+            &#9742; (12) 3900-0000 <br>
+            &#128231; contato@Grill.com.br <br>
+            &#8226; São José dos Campos - SP &#8226;
+        </p>
+    </div>
+    <div>
+        <h1 class="titulo2">Entre Em Contato</h1>
+    </div>
+
+    <form action="contato" method="POST">
+        <div>
+            <label  for="nome" >Nome:</label>
+            <input type="texto" placeholder="Nome" name="nome" required>
+        </div>
+        <div>
+            <label  for="email">E-mail:</label>
+            <input type="email"  placeholder="Email" name="email" required>
+        </div>
+        <div>
+            <label for="texto">Texto:</label>
+            <textarea id="texto" name="mensagem" placeholder="Escrever.." required></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar</button>
+          </div>
+    </form>
+    
+
+   <footer>
+       <br>
+       <h2>
+            &copy; Copyright 2000-2021 Churrascaria  Fictícia NÃO EXISTE
+       </h2>
+       
+   </footer>
+    
+    
+</body>
+</html>

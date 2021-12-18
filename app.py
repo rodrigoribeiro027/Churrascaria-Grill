@@ -30,7 +30,7 @@ def contato():
         server.starttls()
         server.login(login, senha)
 
-        msg=(f'Tropical Grill! Você recebeu uma mensagem de: \n {nome} \n com o email:  {email} com a mensagem: \n\n {message}')
+        msg=(f'Churrascaria Grill! Você recebeu uma mensagem de: \n {nome} \n com o email:  {email} com a mensagem: \n\n {message}')
 
         email_msg = MIMEMultipart()
         email_msg['From'] = login
